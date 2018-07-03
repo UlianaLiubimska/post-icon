@@ -1,0 +1,43 @@
+
+.dashicons-set {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.dashicons-set .dashicons {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    padding: 2px;
+    transition: all 0.25s;
+}
+
+.dashicons-set .dashicons.selected {
+    background: #efefef;
+    color: #0073aa;
+}
+
+.posts-list{
+    padding: 5px 10px;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.posts-list label{
+    display: block;
+    cursor: pointer;
+    padding: 5px 2px;
+    font-weight: bold;
+}
+
+.icon_position{
+    display: block;
+    padding: 3px 0px;
+}
+
+.pi_title{
+    font-weight: 600;
+    color: #23282d;
+    font-size: 14px;
+}
